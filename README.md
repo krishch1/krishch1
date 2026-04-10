@@ -1,6 +1,6 @@
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header)
 
-# 👋 Hi, I'm Krish Chhatri  
+#  Hi, I'm Krish Chhatri  
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?color=000000&size=22&center=true&vCenter=true&width=500&lines=Python+Developer;C+++Programmer;B.Tech+CSE+Student;Always+Learning)
 
