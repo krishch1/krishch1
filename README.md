@@ -1,16 +1,45 @@
-## Hi there 👋
+# 👋 Hi, I'm Krish Chhatri
 
-<!--
-**krishch1/krishch1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 B.Tech Computer Science student at Hitkarni College of Engineering & Technology
+🏫 Completed schooling from Kendriya Vidyalaya Khamaria
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💻 About Me
+
+I’m passionate about software development and problem-solving.
+I primarily work with **Python** and **C++**, focusing on building strong fundamentals and writing efficient, clean code.
+
+---
+
+## 🧠 Currently Learning
+
+* Data Structures & Algorithms
+* Core Computer Science (OS, COA, DBMS)
+* Problem Solving
+
+---
+
+## ⚙️ Tech Stack
+
+* Languages: Python, C++
+* Tools: Git, GitHub
+* Basics: HTML, CSS
+
+---
+
+## 🎯 Goals
+
+* Become a strong Software Developer
+* Master DSA & core CS concepts
+* Build real-world problem-solving skills
+
+---
+
+## 📫 Contact
+
+* Email: [chhatrikrish@gmail.com](mailto:chhatrikrish@gmail.com)
+
+---
+
+> *“Consistency builds mastery.”*
