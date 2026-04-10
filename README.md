@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Krish Chhatri
 
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=000000&lines=Python+Developer;C+++Programmer;B.Tech+CSE+Student;Always+Learning)
+
 🎓 B.Tech Computer Science student at Hitkarni College of Engineering & Technology
 🏫 Completed schooling from Kendriya Vidyalaya Khamaria
 
