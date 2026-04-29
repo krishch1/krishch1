@@ -4,7 +4,7 @@
   # 👋 Hi, I'm Krish Chhatri
 
   <a href="https://readme-typing-svg.herokuapp.com">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2E86C1&center=true&vCenter=true&width=500&lines=Backend+Developer;Python+%26+C%2B%2B;B.Tech+CSE+Student;Always+Learning" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2E86C1&center=true&vCenter=true&width=500&lines=Python+Developer;C%2B%2B+Programmer;B.Tech+CSE+Student;Always+Learning" alt="Typing SVG" />
   </a>
   
   <p align="center">
@@ -21,16 +21,17 @@
 
 ## 👨‍💻 About Me
 
-<img src="https://media.giphy.com/media/qgQUggCGvnkNC/giphy.gif" width="200" align="right" alt="Coding GIF">
+<div align="center">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2I4YXA2NnVrdW9mZTV5bjNmYWt0cjJ2azQ1djE3OGVwOWYxbTZtbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggCGvnkNC/giphy.gif" width="200" align="right" alt="Coding GIF">
+</div>
 
-I’m a software developer and problem-solver currently pursuing my **B.Tech in Computer Science** at Hitkarni College of Engineering & Technology. 
+I’m a passionate software developer and problem-solver currently pursuing my **B.Tech in Computer Science** at Hitkarni College of Engineering & Technology (Schooling: Kendriya Vidyalaya Khamaria). 
 
-I focus on backend architecture, primarily working with **Python**, **C++**, and **FastAPI**. I enjoy building strong fundamentals, writing clean code, and tackling complex algorithms.
+I primarily work with **Python** and **C++**, focusing on building strong fundamentals, writing efficient, clean code, and tackling complex algorithms. I love diving into how things work under the hood and constantly pushing myself to improve.
 
-- 🔭 **Currently focusing on:** Data Structures & Algorithms, OS, COA, DBMS
-- 💻 **Recent Work:** Built backend systems for the "Nullpoint" project during Smart India Hackathon (SIH) 2025.
-- 🌱 **Currently learning:** Advanced problem-solving techniques and system optimizations.
-- 🎯 **Goals:** Master core CS concepts and build impactful, scalable real-world projects.
+- 🔭 **I’m currently focusing on:** Data Structures & Algorithms, OS, COA, DBMS
+- 🌱 **I’m currently learning:** Advanced Problem-Solving techniques
+- 🎯 **My Goals:** Become a strong Software Developer, master core CS concepts, and build impactful real-world projects.
 
 <br/>
 
@@ -40,10 +41,11 @@ I focus on backend architecture, primarily working with **Python**, **C++**, and
 
 <div align="center">
   
-  ### Languages & Frameworks
+  ### Languages
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 
   ### Tools
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -62,11 +64,4 @@ I focus on backend architecture, primarily working with **Python**, **C++**, and
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
-<div align="center">
-  
-  > *"Consistency builds mastery."*
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer Banner" width="100%" />
 </div>
