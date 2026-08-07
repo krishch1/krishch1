@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect id="background" width="512" height="512" fill="#050816" rx="128" />
+
+  <g id="circuit-traces" fill="none" stroke="#FF00FF" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- Top -->
+    <path d="M 256 106 L 256 50" />
+    <!-- Bottom -->
+    <path d="M 256 406 L 256 434" />
+    <!-- Top Right -->
+    <path d="M 386 181 L 406 161 L 466 161" />
+    <!-- Bottom Right -->
+    <path d="M 386 331 L 426 371 L 450 371" />
+    <!-- Bottom Left -->
+    <path d="M 126 331 L 106 351 L 60 351" />
+    <!-- Top Left -->
+    <path d="M 126 181 L 86 141 L 70 141" />
+  </g>
+
+  <g id="circuit-nodes" fill="#050816" stroke="#FF00FF" stroke-width="2">
+    <circle cx="256" cy="46" r="4" />
+    <circle cx="256" cy="438" r="4" />
+    <circle cx="470" cy="161" r="4" />
+    <circle cx="454" cy="371" r="4" />
+    <circle cx="56" cy="351" r="4" />
+    <circle cx="66" cy="141" r="4" />
+  </g>
+
+  <g id="hex-core" stroke-linejoin="miter">
+    <polygon id="outer-hex" points="256,106 386,181 386,331 256,406 126,331 126,181" fill="#0B1020" stroke="#8A2BE2" stroke-width="4" />
+    <polygon id="inner-hex" points="256,128 367,192 367,320 256,384 145,320 145,192" fill="none" stroke="#00F5FF" stroke-width="2" stroke-dasharray="10 12" opacity="0.6" />
+  </g>
+
+  <g id="geometric-k" fill="none" stroke="#00F5FF" stroke-width="18" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M 191 186 L 191 326" />
+    <path d="M 325 186 L 265 186 L 195 256 L 265 326 L 325 326" />
+  </g>
+</svg>
