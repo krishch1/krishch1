@@ -1,0 +1,6 @@
+.github/ 
+components/ 
+docs/ 
+prompts/ 
+scratch/ 
+generate_badges.py 
