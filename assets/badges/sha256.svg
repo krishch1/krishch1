@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="8" fill="#050816" stroke="#1E293B" stroke-width="1.5" />
+  <g transform="translate(12, 12)">
+    <rect x="4" y="4" width="16" height="16" fill="none" stroke="#00F5FF" stroke-width="2"/><text x="12" y="15" font-family="monospace" font-size="7" fill="#F8FAFC" text-anchor="middle">SHA</text>
+  </g>
+</svg>

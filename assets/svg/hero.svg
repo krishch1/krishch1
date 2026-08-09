@@ -1,214 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 910" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
   <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Orbitron:wght@500;700&amp;display=swap');
-      
-      :root {
-        --bg: #050816;
-        --surface: #0B1020;
-        --primary: #00F5FF;
-        --secondary: #8A2BE2;
-        --accent: #FF00FF;
-        --text: #EAF6FF;
-        --muted: #7D8590;
-      }
-      
-      text {
-        fill: var(--text);
-      }
-      .font-display { font-family: 'Orbitron', 'Segoe UI', sans-serif; }
-      .font-mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
-      
-      .panel {
-        fill: var(--surface);
-        stroke: var(--secondary);
-        stroke-width: 1;
-        opacity: 0.6;
-      }
-      
-      /* Animations */
-      @keyframes pulse {
-        0%, 100% { filter: drop-shadow(0 0 4px rgba(0,245,255,0.4)); }
-        50% { filter: drop-shadow(0 0 12px rgba(0,245,255,0.8)); }
-      }
-      @keyframes blink {
-        0%, 50% { opacity: 1; }
-        51%, 100% { opacity: 0; }
-      }
-      
-      /* Typing effect staggered appearance */
-      @keyframes appear1 { 0%, 5% { opacity: 0; } 10%, 98% { opacity: 1; } 100% { opacity: 0; } }
-      @keyframes appear2 { 0%, 20% { opacity: 0; } 25%, 98% { opacity: 1; } 100% { opacity: 0; } }
-      @keyframes appear3 { 0%, 35% { opacity: 0; } 40%, 98% { opacity: 1; } 100% { opacity: 0; } }
-      @keyframes appear4 { 0%, 50% { opacity: 0; } 55%, 98% { opacity: 1; } 100% { opacity: 0; } }
-      @keyframes appear5 { 0%, 65% { opacity: 0; } 70%, 98% { opacity: 1; } 100% { opacity: 0; } }
-      @keyframes appear-cursor { 0%, 65% { opacity: 0; } 70%, 98% { opacity: 1; } 100% { opacity: 0; } }
-      
-      @keyframes scan-move {
-        0% { transform: translateY(-150px); }
-        100% { transform: translateY(1000px); }
-      }
-      
-      .anim-pulse { animation: pulse 4s ease-in-out infinite; }
-      .cursor { animation: blink 1s step-end infinite; }
-      
-      .line-1 { animation: appear1 12s infinite; }
-      .line-2 { animation: appear2 12s infinite; }
-      .line-3 { animation: appear3 12s infinite; }
-      .line-4 { animation: appear4 12s infinite; }
-      .line-5 { animation: appear5 12s infinite; }
-      .final-cursor { animation: appear-cursor 12s infinite; }
-      
-      .scanner {
-        animation: scan-move 6s linear infinite;
-        pointer-events: none;
-      }
-    </style>
-    
-    <linearGradient id="scanline-bar" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="rgba(0, 245, 255, 0)" />
-      <stop offset="50%" stop-color="rgba(0, 245, 255, 0.08)" />
-      <stop offset="100%" stop-color="rgba(0, 245, 255, 0)" />
+    <!-- Background colors -->
+    <radialGradient id="glowPurple" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#8A2BE2" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#050816" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="10%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#050816" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0" />
+      <stop offset="30%" stop-color="#00F5FF" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#8A2BE2" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0" />
     </linearGradient>
 
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="1000" y2="0" stroke="#000000" stroke-width="1" opacity="0.4" />
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.5" />
     </pattern>
 
-    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <!-- Subtle Glow Filter for logo -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
   </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" fill="#050816" />
   
-  <rect width="1000" height="910" fill="var(--bg)" rx="16" />
+  <!-- Subtle Grid -->
+  <rect width="1200" height="400" fill="url(#grid)" />
 
-  <!-- Background Scanlines -->
-  <rect x="0" y="0" width="1000" height="910" fill="url(#scanlines)" />
+  <!-- Gradient Orbs -->
+  <rect width="1200" height="400" fill="url(#glowPurple)" />
+  <rect width="1200" height="400" fill="url(#glowCyan)" />
 
-  <!-- SECTION: LOGO & HEADER -->
-  <g id="section-header">
-    <path class="panel" d="M 56 40 L 944 40 L 960 56 L 960 364 L 944 380 L 56 380 L 40 364 L 40 56 Z" />
+  <!-- Main Surface Card -->
+  <rect x="40" y="40" width="1120" height="320" rx="12" fill="#0B1020" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Decorative Top Line on Card -->
+  <rect x="41" y="41" width="1118" height="1" fill="url(#lineGrad)" />
+
+  <!-- Tiny Geometric Corner Markers -->
+  <!-- Top Left -->
+  <path d="M 35 40 L 45 40 M 40 35 L 40 45" stroke="#94A3B8" stroke-width="1" opacity="0.7" />
+  <!-- Top Right -->
+  <path d="M 1155 40 L 1165 40 M 1160 35 L 1160 45" stroke="#94A3B8" stroke-width="1" opacity="0.7" />
+  <!-- Bottom Left -->
+  <path d="M 35 360 L 45 360 M 40 355 L 40 365" stroke="#94A3B8" stroke-width="1" opacity="0.7" />
+  <!-- Bottom Right -->
+  <path d="M 1155 360 L 1165 360 M 1160 355 L 1160 365" stroke="#94A3B8" stroke-width="1" opacity="0.7" />
+
+  <!-- Logo Mark (KRON.OS) -->
+  <g transform="translate(600, 115) scale(1.15)">
+    <!-- Outer rings -->
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#1E293B" stroke-width="1" />
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#F8FAFC" stroke-width="1.5" />
     
-    <!-- Accent borders -->
-    <line x1="120" y1="40" x2="240" y2="40" stroke="var(--primary)" stroke-width="2" filter="url(#glow-cyan)" />
-    <line x1="760" y1="380" x2="880" y2="380" stroke="var(--accent)" stroke-width="2" />
+    <!-- Inner diamond (cyan) with subtle glow -->
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="none" stroke="#00F5FF" stroke-width="1.5" transform="rotate(45)" filter="url(#neonGlow)" />
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="none" stroke="#00F5FF" stroke-width="1.5" transform="rotate(45)" />
     
-    <!-- Embedded Logo -->
-    <g class="anim-pulse" transform="translate(500, 160) scale(0.35) translate(-256, -256)">
-       <g fill="none" stroke="#FF00FF" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
-         <path d="M 256 106 L 256 50" />
-         <path d="M 256 406 L 256 434" />
-         <path d="M 386 181 L 406 161 L 466 161" />
-         <path d="M 386 331 L 426 371 L 450 371" />
-         <path d="M 126 331 L 106 351 L 60 351" />
-         <path d="M 126 181 L 86 141 L 70 141" />
-       </g>
-       <g fill="#0B1020" stroke="#FF00FF" stroke-width="2">
-         <circle cx="256" cy="46" r="4" />
-         <circle cx="256" cy="438" r="4" />
-         <circle cx="470" cy="161" r="4" />
-         <circle cx="454" cy="371" r="4" />
-         <circle cx="56" cy="351" r="4" />
-         <circle cx="66" cy="141" r="4" />
-       </g>
-       <g stroke-linejoin="miter">
-         <polygon points="256,106 386,181 386,331 256,406 126,331 126,181" fill="#0B1020" stroke="#8A2BE2" stroke-width="4" />
-         <polygon points="256,128 367,192 367,320 256,384 145,320 145,192" fill="none" stroke="#00F5FF" stroke-width="2" stroke-dasharray="10 12" opacity="0.6" />
-       </g>
-       <g fill="none" stroke="#00F5FF" stroke-width="18" stroke-linecap="square" stroke-linejoin="miter">
-         <path d="M 191 186 L 191 326" />
-         <path d="M 325 186 L 265 186 L 195 256 L 265 326 L 325 326" />
-       </g>
-    </g>
-    
-    <text x="500" y="310" text-anchor="middle" class="font-display" font-size="42" font-weight="700" letter-spacing="6" fill="var(--text)" filter="url(#glow-cyan)">KRON.OS</text>
-    <text x="500" y="345" text-anchor="middle" class="font-mono" font-size="16" letter-spacing="2" fill="var(--primary)">Artificial Intelligence Kernel</text>
+    <!-- Inner dot (purple) -->
+    <circle cx="0" cy="0" r="2.5" fill="#8A2BE2" />
   </g>
 
-  <!-- SECTION: BOOT SEQUENCE -->
-  <g id="section-boot">
-    <path class="panel" d="M 56 400 L 944 400 L 960 416 L 960 584 L 944 600 L 56 600 L 40 584 L 40 416 Z" />
-    
-    <line x1="40" y1="460" x2="40" y2="540" stroke="var(--primary)" stroke-width="2" filter="url(#glow-cyan)" />
-    
-    <g class="font-mono" font-size="16" fill="var(--primary)">
-      <g class="line-1">
-        <text x="80" y="445">&gt; Initializing Backend Kernel...</text>
-      </g>
-      <g class="line-2">
-        <text x="80" y="475">&gt; Loading Neural Runtime...</text>
-      </g>
-      <g class="line-3">
-        <text x="80" y="505">&gt; Connecting Docker Engine...</text>
-      </g>
-      <g class="line-4">
-        <text x="80" y="535">&gt; Authenticating KRISH.CH1...</text>
-      </g>
-      <g class="line-5">
-        <text x="80" y="570" fill="var(--text)">✓ ACCESS GRANTED</text>
-      </g>
-      <g class="final-cursor">
-        <rect class="cursor" x="245" y="556" width="10" height="18" fill="var(--primary)" />
-      </g>
-    </g>
-  </g>
+  <!-- Typography -->
+  <!-- KRON.OS (Large Header) -->
+  <text x="600" y="205" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" letter-spacing="0.1em" fill="#F8FAFC" text-anchor="middle">KRON.OS</text>
 
-  <!-- SECTION: STATUS PANEL -->
-  <g id="section-status">
-    <path class="panel" d="M 56 620 L 944 620 L 960 636 L 960 754 L 944 770 L 56 770 L 40 754 L 40 636 Z" />
-    
-    <g class="font-mono" font-size="15" fill="var(--muted)">
-      <text x="80" y="660">STATUS</text>
-      <text x="80" y="690">ROLE</text>
-      <text x="80" y="720">STACK</text>
-      <text x="80" y="750">VERSION</text>
-      
-      <text x="200" y="660" fill="var(--primary)" filter="url(#glow-cyan)">ONLINE</text>
-      <text x="200" y="690" fill="var(--text)">Backend Engineer</text>
-      <text x="200" y="720" fill="var(--text)">AI • FastAPI • Docker</text>
-      <text x="200" y="750" fill="var(--accent)">KRON.OS v1.0</text>
-    </g>
-    
-    <!-- System Dials -->
-    <g transform="translate(730, 695)">
-       <circle cx="0" cy="0" r="40" fill="none" stroke="var(--surface)" stroke-width="6" />
-       <circle cx="0" cy="0" r="40" fill="none" stroke="var(--muted)" stroke-width="2" opacity="0.3" />
-       <path d="M 0 -40 A 40 40 0 1 1 -20 34" fill="none" stroke="var(--secondary)" stroke-width="4" stroke-linecap="round" />
-       <text x="0" y="5" text-anchor="middle" class="font-mono" font-size="14" font-weight="700" fill="var(--text)">MEM</text>
-    </g>
-    <g transform="translate(850, 695)">
-       <circle cx="0" cy="0" r="40" fill="none" stroke="var(--surface)" stroke-width="6" />
-       <circle cx="0" cy="0" r="40" fill="none" stroke="var(--muted)" stroke-width="2" opacity="0.3" />
-       <path d="M 0 -40 A 40 40 0 1 1 -35 19" fill="none" stroke="var(--primary)" stroke-width="4" stroke-linecap="round" filter="url(#glow-cyan)" />
-       <text x="0" y="5" text-anchor="middle" class="font-mono" font-size="14" font-weight="700" fill="var(--text)">SYS</text>
-    </g>
-  </g>
+  <!-- KRISH CHHATRI (Name) -->
+  <text x="600" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="500" letter-spacing="0.25em" fill="#94A3B8" text-anchor="middle">KRISH CHHATRI</text>
 
-  <!-- SECTION: NAVIGATION -->
-  <g id="section-nav">
-    <path class="panel" d="M 56 790 L 944 790 L 960 806 L 960 854 L 944 870 L 56 870 L 40 854 L 40 806 Z" />
-    
-    <g class="font-display" font-size="15" font-weight="500" letter-spacing="2" fill="var(--text)">
-      <g transform="translate(180, 830)">
-        <rect x="-60" y="-18" width="120" height="36" fill="rgba(0, 245, 255, 0.1)" stroke="var(--primary)" stroke-width="1" rx="4" />
-        <text y="5" text-anchor="middle" fill="var(--primary)" filter="url(#glow-cyan)">SYSTEM</text>
-      </g>
-      <g transform="translate(393, 830)">
-        <text y="5" text-anchor="middle" fill="var(--muted)">[ PROJECTS ]</text>
-      </g>
-      <g transform="translate(606, 830)">
-        <text y="5" text-anchor="middle" fill="var(--muted)">[ TELEMETRY ]</text>
-      </g>
-      <g transform="translate(820, 830)">
-        <text y="5" text-anchor="middle" fill="var(--muted)">[ CONTACT ]</text>
-      </g>
-    </g>
-  </g>
+  <!-- Role (Technical / Monospace) -->
+  <text x="600" y="290" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'JetBrains Mono', monospace" font-size="14" font-weight="400" letter-spacing="0.05em" fill="#94A3B8" text-anchor="middle">Backend Engineer · AI Systems</text>
 
-  <!-- Animated Scanner Bar (Front) -->
-  <rect class="scanner" x="0" y="0" width="1000" height="150" fill="url(#scanline-bar)" />
+  <!-- Supporting Statement -->
+  <text x="600" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#94A3B8" opacity="0.7" text-anchor="middle">Building scalable backend systems and intelligent infrastructure.</text>
+
 </svg>
