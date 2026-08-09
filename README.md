@@ -1,5 +1,5 @@
 <!-- KRON.OS DASHBOARD -->
-<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse; background-color: #050816; border: 1px solid rgba(148,163,184,0.15); table-layout: auto;">
+<table style="display: table; table-layout: fixed; width: 100%; max-width: 100%; border-collapse: collapse; background-color: #050816; border: 1px solid rgba(148,163,184,0.15); word-break: break-word;">
 
 <!-- HERO -->
 <tr>
@@ -42,7 +42,7 @@ data workflows.
 Autonomous AI loan origination over WebRTC with conversational AI,
 liveness verification, age verification, and real-time offer generation.
 </p>
-<p>
+<p style="max-width: 100%;">
 <code>Next.js</code> <code>LiveKit</code> <code>Python</code> <code>Gemini Live</code> <code>MiniFASNet</code> <code>DeepFace</code> <code>Supabase</code>
 </p>
 <br>
@@ -59,7 +59,7 @@ liveness verification, age verification, and real-time offer generation.
 AI-powered certificate verification combining OCR, ResNet-based forgery
 detection, digital signatures, and QR-based verification.
 </p>
-<p>
+<p style="max-width: 100%;">
 <code>Python</code> <code>FastAPI</code> <code>ResNet</code> <code>OCR</code> <code>Docker</code>
 </p>
 <br>
@@ -76,7 +76,7 @@ detection, digital signatures, and QR-based verification.
 Proactive student-risk analysis using CSV ingestion, rule-based analysis,
 PostgreSQL, and an interactive React dashboard.
 </p>
-<p>
+<p style="max-width: 100%;">
 <code>Python</code> <code>FastAPI</code> <code>React</code> <code>PostgreSQL</code> <code>Docker</code>
 </p>
 <br>
@@ -93,7 +93,7 @@ PostgreSQL, and an interactive React dashboard.
 Secure data sanitization with multi-pass wiping, SHA256 verification,
 and cryptographically signed Wipe Certificates.
 </p>
-<p>
+<p style="max-width: 100%;">
 <code>Python</code> <code>FastAPI</code> <code>Bash</code> <code>ECDSA</code> <code>SHA256</code> <code>Docker</code>
 </p>
 <br>
@@ -111,80 +111,80 @@ and cryptographically signed Wipe Certificates.
 <!-- TECHNOLOGY BODY -->
 <tr>
 <td style="padding: 0; border-bottom: 1px solid rgba(148,163,184,0.15);">
-  <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <table style="display: table; width: 100%; table-layout: auto; border-collapse: collapse;">
     <!-- LANGUAGES -->
     <tr>
     <td bgcolor="#050816" align="right" valign="middle" style="padding: 20px 15px; border-right: 1px solid rgba(148,163,184,0.15); border-bottom: 1px solid rgba(148,163,184,0.15);">
-    <b style="color: #00F5FF; font-family: monospace; font-size: 12px; white-space: nowrap;">LANGUAGES</b>
+    <b style="color: #00F5FF; font-family: monospace; font-size: 12px;">LANGUAGES</b>
     </td>
     <td bgcolor="#050816" align="left" valign="middle" style="padding: 15px; border-bottom: 1px solid rgba(148,163,184,0.15);">
-      <img src="./assets/badges/python.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Python</span> &nbsp;&nbsp;
-      <img src="./assets/badges/javascript.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">JavaScript</span> &nbsp;&nbsp;
+      <img src="./assets/badges/python.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Python</span> &nbsp; 
+      <img src="./assets/badges/javascript.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">JavaScript</span> &nbsp; 
       <img src="./assets/badges/bash.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Bash</span>
     </td>
     </tr>
     <!-- BACKEND -->
     <tr>
     <td bgcolor="#050816" align="right" valign="middle" style="padding: 20px 15px; border-right: 1px solid rgba(148,163,184,0.15); border-bottom: 1px solid rgba(148,163,184,0.15);">
-    <b style="color: #8A2BE2; font-family: monospace; font-size: 12px; white-space: nowrap;">BACKEND</b>
+    <b style="color: #8A2BE2; font-family: monospace; font-size: 12px;">BACKEND</b>
     </td>
     <td bgcolor="#050816" align="left" valign="middle" style="padding: 15px; border-bottom: 1px solid rgba(148,163,184,0.15);">
-      <img src="./assets/badges/fastapi.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">FastAPI</span> &nbsp;&nbsp;
-      <img src="./assets/badges/nodejs.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Node.js</span> &nbsp;&nbsp;
+      <img src="./assets/badges/fastapi.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">FastAPI</span> &nbsp; 
+      <img src="./assets/badges/nodejs.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Node.js</span> &nbsp; 
       <img src="./assets/badges/nextjs.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Next.js</span>
     </td>
     </tr>
     <!-- AI / ML -->
     <tr>
     <td bgcolor="#050816" align="right" valign="middle" style="padding: 20px 15px; border-right: 1px solid rgba(148,163,184,0.15); border-bottom: 1px solid rgba(148,163,184,0.15);">
-    <b style="color: #00F5FF; font-family: monospace; font-size: 12px; white-space: nowrap;">AI / ML</b>
+    <b style="color: #00F5FF; font-family: monospace; font-size: 12px;">AI / ML</b>
     </td>
     <td bgcolor="#050816" align="left" valign="middle" style="padding: 15px; border-bottom: 1px solid rgba(148,163,184,0.15);">
-      <img src="./assets/badges/gemini.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Gemini</span> &nbsp;&nbsp;
-      <img src="./assets/badges/resnet.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">ResNet</span> &nbsp;&nbsp;
-      <img src="./assets/badges/minifasnet.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">MiniFASNet</span> &nbsp;&nbsp;
-      <img src="./assets/badges/deepface.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">DeepFace</span> &nbsp;&nbsp;
+      <img src="./assets/badges/gemini.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Gemini</span> &nbsp; 
+      <img src="./assets/badges/resnet.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">ResNet</span> &nbsp; 
+      <img src="./assets/badges/minifasnet.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">MiniFASNet</span> &nbsp; 
+      <img src="./assets/badges/deepface.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">DeepFace</span> &nbsp; 
       <img src="./assets/badges/ocr.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">OCR</span>
     </td>
     </tr>
     <!-- DATABASES & STATE -->
     <tr>
     <td bgcolor="#050816" align="right" valign="middle" style="padding: 20px 15px; border-right: 1px solid rgba(148,163,184,0.15); border-bottom: 1px solid rgba(148,163,184,0.15);">
-    <b style="color: #8A2BE2; font-family: monospace; font-size: 12px; white-space: nowrap;">DATABASES & STATE</b>
+    <b style="color: #8A2BE2; font-family: monospace; font-size: 12px;">DATABASES & STATE</b>
     </td>
     <td bgcolor="#050816" align="left" valign="middle" style="padding: 15px; border-bottom: 1px solid rgba(148,163,184,0.15);">
-      <img src="./assets/badges/postgresql.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">PostgreSQL</span> &nbsp;&nbsp;
+      <img src="./assets/badges/postgresql.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">PostgreSQL</span> &nbsp; 
       <img src="./assets/badges/supabase.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Supabase</span>
     </td>
     </tr>
     <!-- INFRASTRUCTURE -->
     <tr>
     <td bgcolor="#050816" align="right" valign="middle" style="padding: 20px 15px; border-right: 1px solid rgba(148,163,184,0.15); border-bottom: 1px solid rgba(148,163,184,0.15);">
-    <b style="color: #00F5FF; font-family: monospace; font-size: 12px; white-space: nowrap;">INFRASTRUCTURE</b>
+    <b style="color: #00F5FF; font-family: monospace; font-size: 12px;">INFRASTRUCTURE</b>
     </td>
     <td bgcolor="#050816" align="left" valign="middle" style="padding: 15px; border-bottom: 1px solid rgba(148,163,184,0.15);">
-      <img src="./assets/badges/docker.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Docker</span> &nbsp;&nbsp;
-      <img src="./assets/badges/docker_compose.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Compose</span> &nbsp;&nbsp;
+      <img src="./assets/badges/docker.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Docker</span> &nbsp; 
+      <img src="./assets/badges/docker_compose.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Compose</span> &nbsp; 
       <img src="./assets/badges/livekit.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">LiveKit</span>
     </td>
     </tr>
     <!-- SECURITY & CRYPTOGRAPHY -->
     <tr>
     <td bgcolor="#050816" align="right" valign="middle" style="padding: 20px 15px; border-right: 1px solid rgba(148,163,184,0.15); border-bottom: 1px solid rgba(148,163,184,0.15);">
-    <b style="color: #8A2BE2; font-family: monospace; font-size: 12px; white-space: nowrap;">SECURITY & CRYPTOGRAPHY</b>
+    <b style="color: #8A2BE2; font-family: monospace; font-size: 12px;">SECURITY & CRYPTOGRAPHY</b>
     </td>
     <td bgcolor="#050816" align="left" valign="middle" style="padding: 15px; border-bottom: 1px solid rgba(148,163,184,0.15);">
-      <img src="./assets/badges/ecdsa.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">ECDSA</span> &nbsp;&nbsp;
+      <img src="./assets/badges/ecdsa.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">ECDSA</span> &nbsp; 
       <img src="./assets/badges/sha256.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">SHA256</span>
     </td>
     </tr>
     <!-- TOOLS -->
     <tr>
     <td bgcolor="#050816" align="right" valign="middle" style="padding: 20px 15px; border-right: 1px solid rgba(148,163,184,0.15);">
-    <b style="color: #00F5FF; font-family: monospace; font-size: 12px; white-space: nowrap;">TOOLS</b>
+    <b style="color: #00F5FF; font-family: monospace; font-size: 12px;">TOOLS</b>
     </td>
     <td bgcolor="#050816" align="left" valign="middle" style="padding: 15px;">
-      <img src="./assets/badges/git.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Git</span> &nbsp;&nbsp;
+      <img src="./assets/badges/git.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Git</span> &nbsp; 
       <img src="./assets/badges/git_lfs.svg" width="40" align="absmiddle"> <span style="color: #F8FAFC; font-size: 13px;">Git LFS</span>
     </td>
     </tr>
@@ -192,12 +192,27 @@ and cryptographically signed Wipe Certificates.
 </td>
 </tr>
 
-<!-- GITHUB ACTIVITY -->
+<!-- SYSTEM TELEMETRY -->
 <tr>
-<td bgcolor="#080D1C" align="center" style="padding: 30px 15px; border-bottom: 1px solid rgba(148,163,184,0.15);">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=krishch1&hide_border=true&background=080D1C&ring=00F5FF&fire=8A2BE2&currStreakLabel=00F5FF&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" style="width: 100%; max-width: 495px; height: auto;" alt="GitHub Streak">
-<br><br>
-<a href="https://github.com/krishch1"><b style="color: #00F5FF; font-family: monospace; font-size: 14px;">VIEW GITHUB PROFILE →</b></a>
+<td bgcolor="#080D1C" align="center" style="padding: 15px; border-bottom: 1px solid rgba(148,163,184,0.15);">
+<b style="color: #94A3B8; font-family: monospace; font-size: 11px; letter-spacing: 1px;">SYSTEM TELEMETRY</b>
+<table style="display: table; table-layout: fixed; width: 100%; max-width: 400px; margin: 10px auto; border-top: 1px solid rgba(148,163,184,0.15); border-bottom: 1px solid rgba(148,163,184,0.15);">
+  <tr>
+    <td align="center" width="33%" style="padding: 10px 0; border: none;">
+      <b style="color: #00F5FF; font-family: monospace; font-size: 18px;">33</b><br>
+      <span style="color: #94A3B8; font-family: monospace; font-size: 10px;">CONTRIBUTIONS</span>
+    </td>
+    <td align="center" width="33%" style="padding: 10px 0; border: none;">
+      <b style="color: #F8FAFC; font-family: monospace; font-size: 18px;">1</b><br>
+      <span style="color: #94A3B8; font-family: monospace; font-size: 10px;">CURRENT<br>STREAK</span>
+    </td>
+    <td align="center" width="33%" style="padding: 10px 0; border: none;">
+      <b style="color: #F8FAFC; font-family: monospace; font-size: 18px;">3</b><br>
+      <span style="color: #94A3B8; font-family: monospace; font-size: 10px;">LONGEST<br>STREAK</span>
+    </td>
+  </tr>
+</table>
+<a href="https://github.com/krishch1" style="text-decoration: none;"><b style="color: #8A2BE2; font-family: monospace; font-size: 11px;">VIEW GITHUB PROFILE →</b></a>
 </td>
 </tr>
 
